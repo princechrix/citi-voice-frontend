@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 CitiVoice System (Frontend)  | Link -  [CitiVoice](https://citi-voice-frontend-nu.vercel.app/)
+
+In many regions, complaints and feedback regarding public services are handled through fragmented, informal, or outdated channels, often resulting in delayed responses, lack of accountability, and low citizen satisfaction.
+
+The **CitizVoice System** aims to address this gap by providing a centralized, digital platform where citizens can easily submit complaints or feedback and track their resolution. Government institutions can efficiently receive, categorize, and respond to submissions via a simple, streamlined interface.
+
+![Landing Page Screenshot](./src/assets/images/dashImage.png)
+
+## Tech Stack Used
+
+| Frontend      | Backend     | Database            | Authentication | Other Tools                          |
+|---------------|-------------|---------------------|----------------|--------------------------------------|
+| **Next.js**   | **NestJS**  | PostgreSQL + Prisma | JWT            | Tailwind CSS, TanStack Query, shadcn | 
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/princechrix/citi-voice-frontend.git
+cd citi-voice-frontend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Set Up Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+NEXT_PUBLIC_API_URL=
+NEXT_PUBLIC_CREATE_USER_SECRET_KEY=
+OPENAI_API_KEY=
+GOOGLE_AI_API_KEY=
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+### 3. Install the dependencies & run the project
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm install
+pnpm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 4. Deployment
+It is deployed on vercel, here is the link to it : [CitiVoice](https://citi-voice-frontend-nu.vercel.app/)
