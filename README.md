@@ -1,6 +1,7 @@
 # 🧠 CitiVoice System (Frontend)  | Link -  [CitiVoice](https://citi-voice-frontend-nu.vercel.app/)
 
-# Demo [click here to watch]([https://drive.google.com/file/d/1H7H0iYLDOSprt9k-5JvjMp2AD74pTLta/view?usp=drive_link])
+# Demo [click here to watch](https://drive.google.com/file/d/1H7H0iYLDOSprt9k-5JvjMp2AD74pTLta/view?usp=drive_link)
+
 
 In many regions, complaints and feedback regarding public services are handled through fragmented, informal, or outdated channels, often resulting in delayed responses, lack of accountability, and low citizen satisfaction.
 
