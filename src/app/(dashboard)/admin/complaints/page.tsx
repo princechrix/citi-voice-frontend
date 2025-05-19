@@ -462,13 +462,19 @@ const ComplaintsPage = () => {
                   <TableCell>
                     <div className="flex items-center gap-2">
                       {complaint.agency?.logoUrl ? (
+                        <div className="flex items-center gap-2">
                         <Image
                           src={complaint.agency.logoUrl}
                           alt={`${complaint.agency.name} logo`}
-                          className="w-full h-full object-cover"
+                          className=" object-cover"
                           width={32}
                           height={32}
+                          priority
                         />
+                        <span className="text-xs text-muted-foreground">
+                            {complaint.agency.acronym}
+                          </span>
+                        </div>
                       ) : (
                         <div className="flex flex-col">
                           <span className="font-medium">{complaint.agency.name}</span>
