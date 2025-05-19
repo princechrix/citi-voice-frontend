@@ -1,5 +1,9 @@
 # 🧠 CitiVoice System (Frontend)  | Link -  [CitiVoice](https://citi-voice-frontend-nu.vercel.app/)
 
+## Credentials (SUPER ADMIN)
+Email : superadmin.citivoice@yopmail.com
+Password : 12345678
+
 # Demo [click here to watch](https://drive.google.com/file/d/1H7H0iYLDOSprt9k-5JvjMp2AD74pTLta/view?usp=drive_link)
 
 
